@@ -42,6 +42,7 @@ bool Greedy(unsigned short* pTotalWeight, unsigned short* pBagCount){
 		}
 		else{
 			remain += WEIGHT5KG;
+			numOf5KG -= 1;
 			*pBagCount -= 1;
 		}
 	}
